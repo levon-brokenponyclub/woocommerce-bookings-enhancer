@@ -25,3 +25,5 @@ require_once __DIR__ . '/includes/frontend-script.php';
 require_once __DIR__ . '/includes/ajax-handlers.php';
 require_once __DIR__ . '/includes/bookings-filters.php';
 require_once __DIR__ . '/includes/cart-order-hooks.php';
+require_once __DIR__ . '/includes/cart-validation.php';
+require_once __DIR__ . '/includes/debug.php';

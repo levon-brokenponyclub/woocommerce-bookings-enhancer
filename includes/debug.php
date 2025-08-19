@@ -1,7 +1,12 @@
 <?php
+/**
+ * Light logger for SSPG plugin
+ * Writes to debug.log in this plugin folder if SSPG_DEBUG is enabled
+ */
+
 if (!defined('ABSPATH')) exit;
 
-if (!defined('SSPG_DEBUG')) define('SSPG_DEBUG', true);
+define('SSPG_DEBUG', true);
 
 /** Write a line to this plugin folder’s debug.log if SSPG_DEBUG is enabled */
 function sspg_log($msg) {
